@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <!--al usar scroll view se debe generar el linearLayout paara mantener la info en un espacio especifico-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:background="@color/gris"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+            android:id="@+id/iconRegister"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/appNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:text="@string/nombre_app"
+                android:textColor="@color/blanco"
+                android:textSize="38sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tittleRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/ttl_registro"
+            android:textColor="@color/blanco"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="317dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/msg_registro"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tittleRegister" />
+
+        <EditText
+            android:id="@+id/fieldNameRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Nombres"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textRegister" />
+
+        <EditText
+            android:id="@+id/fieldLastNamesRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Apellidos"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldNameRegister" />
+
+        <EditText
+            android:id="@+id/fieldEmailRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Correo electrónico"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldLastNamesRegister" />
+
+        <EditText
+            android:id="@+id/fieldPhoneRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Teléfono"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldLastNamesRegister" />
+
+        <EditText
+            android:id="@+id/fieldPassRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldPhoneRegister" />
+
+        <EditText
+            android:id="@+id/fieldValidatePassRegister"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Valida tu contraseña"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldPassRegister" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:checked="false"
+            android:focusable="auto"
+            android:text="@string/terminos"
+            android:textColor="@color/blanco"
+            android:textStyle="bold"
+            app:buttonTint="@color/azul"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fieldValidatePassRegister" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="253dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/azul"
+            android:fontFamily="@font/noto_serif_lao"
+            android:text="@string/registro"
+            android:textAlignment="inherit"
+            android:textColor="@color/blanco"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxRegister"
+            app:layout_constraintVertical_bias="1.0"
+            app:strokeColor="@color/blanco"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>

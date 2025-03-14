@@ -1,0 +1,22 @@
+<resources>
+<!--    Todos los strings que son estaticos dentro del sistema-->
+    <string name="nombre_app">YourHealth</string>
+    <string name="mi_nombre">Franklin Andres Cortés González</string>
+    <string name="msj_inicio">Inicia una nueva aventura con NutriFlow y descubre una nueva forma de ver el mundo</string>
+    <string name="comienzo">Comienza</string>
+    <string name="registro">Registrate</string>
+    <string name="msj_inicio_sesion">La aventura está por iniciar, por favor inicia sesión</string>
+    <string name="ingreso">Ingresar</string>
+    <string name="recuperar_contrasena">Recupera Tu Contraseña</string>
+    <string name="ingreso_google">Ingresa con Google</string>
+    <string name="msj_cuenta_inexistente">No tienes cuenta?</string>
+    <string name="ttl_registro">Crear cuenta</string>
+    <string name="msg_registro">Únete a nuestra comunidad y disfruta de todos los beneficios.</string>
+    <string name="terminos">He leido y acepto los terminos y condiciones.</string>
+    <string name="ttl_recuperar_contraseña">Recuperar contraseña</string>
+    <string name="msg_recuperar_contraseña">Ingresa tu correo electrónico registrado y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="enviar_enlace">Enviar enlace</string>
+    <string name="label_correo">Correo electrónico</string>
+    <string name="label_telefono">Teléfono</string>
+    <string name="edit_perfil">Editar perfil</string>
+</resources>
