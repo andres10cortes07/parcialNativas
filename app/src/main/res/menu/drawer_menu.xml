@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Para agrupar la informacion mostrada en el menú-->
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/itemInicioFragment"
+            android:title="@string/inicio" />
+
+        <item android:id="@+id/itemMisDatosFragment"
+            android:title="@string/mis_datos" />
+
+        <item android:id="@+id/itemAnalisisFragment"
+            android:title="@string/analisis" />
+
+        <item android:id="@+id/itemHistoricoFragment"
+            android:title="@string/historico" />
+    </group>
+
+</menu>

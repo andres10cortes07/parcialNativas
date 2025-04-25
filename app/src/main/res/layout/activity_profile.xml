@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/appIconProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.039"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/appNameProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:text="@string/nombre_app"
+                android:textColor="@color/salmon"
+                android:textSize="38sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/userImageProfile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/usuario"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/nameProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Pepito Andres Perez Camargo"
+            android:textColor="@color/negro"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/labelEmailProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/label_correo"
+            android:textAllCaps="false"
+            android:textColor="@color/negro"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/emailUserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="pandres00@hotmail.com"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/labelPhoneProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="@string/label_telefono"
+            android:textColor="@color/negro"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/phoneUserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="3112556489"
+            android:textColor="@color/negro"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/salmon"
+            android:fontFamily="@font/noto_serif_lao"
+            android:text="@string/edit_perfil"
+            android:textAlignment="inherit"
+            android:textColor="@color/blanco"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBoxRegister"
+            app:layout_constraintVertical_bias="1.0"
+            app:strokeColor="@color/blanco"
+            app:strokeWidth="2dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

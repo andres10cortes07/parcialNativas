@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/cuota"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:textColor="@color/negro"/>
+
+        <TextView
+            android:id="@+id/resultadoCuota"
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:textColor="@color/negro"/>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/total"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <TextView
+            android:id="@+id/resultadoTotal"
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:textColor="@color/negro"/>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/totalIntereses"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <TextView
+            android:id="@+id/resultadoTotalIntereses"
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:textColor="@color/negro"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

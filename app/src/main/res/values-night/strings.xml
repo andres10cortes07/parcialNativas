@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="inicio">Inicio\n</string>
+    <string name="productos">Productos</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="ejemploProducto">Vitaminas drasanvi</string>
+    <string name="ejemploDescProducto">Importante para la visión, el sistema inmunológico y la salud de la piel.</string>
+    <string name="ejemploPrecioProducto">$68.000</string>
+    <string name="añadirACarro">Añadir al carrito</string>
+    <string name="placeholderNombre">Nombre</string>
+    <string name="placeholderTelefono">Telefono</string>
+    <string name="editFotoPerfil">Cambiar foto de perfil</string>
+    <string name="electronica">Electrónica</string>
+    <string name="productos_electronica">150 productos</string>
+    <string name="ropa">Ropa</string>
+    <string name="productos_ropa">303 productos</string>
+</resources>

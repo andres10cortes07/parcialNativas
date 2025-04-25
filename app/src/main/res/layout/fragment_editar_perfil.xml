@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/usuario"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✎"
+                android:textSize="20sp"
+                android:backgroundTint="@color/salmon"
+                app:strokeColor="@color/blanco"
+                app:strokeWidth="2dp"
+                android:layout_marginTop="-58dp"
+                android:layout_marginStart="100dp"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/campoNombre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:textColor="@color/negro"/>
+
+        <EditText
+            android:id="@+id/campoEditarNombre"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:hint="@string/placeholderNombre"
+            android:inputType="text"
+            android:textColor="@color/negro"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/campEdad"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <EditText
+            android:id="@+id/campoEditarEdad"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:hint="@string/campEdad"
+            android:inputType="text"
+            android:textColor="@color/negro"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/campoCorreo"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <EditText
+            android:id="@+id/campoEditarCorreo"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:hint="@string/placeholderCorreo"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/negro"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/campoPrograma"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <EditText
+            android:id="@+id/campoEditarPrograma"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:hint="@string/campoPrograma"
+            android:inputType="number"
+            android:textColor="@color/negro"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_width="345dp"
+            android:layout_height="match_parent"
+            android:text="@string/campoSemestre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/noto_serif_lao"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/negro"/>
+
+        <EditText
+            android:id="@+id/campoEditarSemestre"
+            style="@style/EditTextRounded"
+            android:layout_width="345dp"
+            android:layout_height="55dp"
+            android:hint="@string/campoSemestre"
+            android:inputType="number"
+            android:textColor="@color/negro"
+            android:textColorHint="@color/gris"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/buttonSaveProfile"
+            android:layout_width="200dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/salmon"
+            android:fontFamily="@font/noto_serif_lao"
+            android:text="@string/guardar"
+            android:textColor="@color/blanco"
+            android:textSize="20sp"
+            app:strokeColor="@color/blanco"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>
